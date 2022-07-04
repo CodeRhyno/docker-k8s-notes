@@ -53,7 +53,7 @@ docker container stats
 docker container run -it
 ```
 - To run additional commant in existing container
-```sh
+```sd
 docker container exec -it <CONTAINER_NAME> <COMMAND>
 ```
 - To show docker container port mapping
@@ -65,7 +65,7 @@ docker container port <CONTAINER_NAME>
 ```sh
 docker stop <CONTAINER_NAME>
 
-socker rm <MULTIPLE_CONTAINER_NAMES>
+docker rm <MULTIPLE_CONTAINER_NAMES>
 ```
 - To list docker images
 ```sh
